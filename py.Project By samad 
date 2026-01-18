@@ -1,0 +1,18 @@
+name=input("entre your own name ")
+eng = int(input("English marks: "))
+math = int(input("Math marks: "))
+sci = int(input("Science marks: "))
+urdu= int(input("urdu marks:"))
+comp= int(input("comp marks:"))
+your_total = eng + math + sci + urdu + comp
+total_marks = 550
+percentage =(your_total / total_marks) *100
+if percentage >= 40:
+        status = "PASS"
+else:
+        status = "FAIL"
+print("\n--- RESULT ---")
+print("Name:", name)
+print("Marks:", your_total )
+print("Percentage:", percentage)
+print("Status:", status)
